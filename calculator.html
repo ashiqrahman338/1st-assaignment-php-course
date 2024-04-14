@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-box">
+        <div class="calculator">
+            <div class="inputs">
+                <input type="number" id="num1">
+                <select id="operation">
+                    <option value="add">Addition (+)</option>
+                    <option value="sub">Substruction (-)</option>
+                    <option value="mul">Multification (x)</option>
+                    <option value="div">Division (/)</option>
+                </select>
+                <input type="number" id="num2">
+            </div>
+            <button onclick="handleSubmit()">Calculate</button>
+        </div>
+        <div class="result" id="result"> 
+        </div>
+    </div>
+</body>
+
+<script src="calculator.js"></script>
+</html>
